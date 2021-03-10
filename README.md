@@ -10,8 +10,6 @@ The original data can be found on https://ec.europa.eu/eurostat/databrowser/view
 - Flask 1
 - PostgreSQL 13
 
-### In progress:
-unittests
 
 <br/><br/><br/>
 ### Demo:
