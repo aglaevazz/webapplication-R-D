@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}Country Information{% endblock %}
+
+{% block subtitle %}Information on: {{country}}{% endblock %}
+
+{% block content %}
+    <h3>GDP spend on R&D in percent since 1990</h3>
+    <p>N/A: No information availabe</p>
+    <ul>
+        {% for entry in gdp_expenditure_on_r_and_d_since_1990 %}
+            {% if entry[1] %}
+                <li>{{entry[0]}}: {{entry[1]}}%</li>
+            {% else %}
+                <li>{{entry[0]}}: N/A</li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}Query Country{% endblock %}
+
+{% block subtitle %}Get Information on the Country of Your Choice{% endblock %}
+
+{% block content %}
+    <p>{{additional_information}}</p>
+    <p>{{matching_countries}}</p><br>
+    <p>Enter the name of the country or the country-code to see the % of GDP expenditure on R&D in 2019.</p><br>
+<form action="#" method="post">
+    <p>Please enter at least two letters:</p>
+    <p><input type="text" name="country" /></p>
+    <p><input type="submit" value="submit" /></p>
+</form>
+    <br><br>
+    <p>Available Countries:</p>
+    <ul>
+    {% for entry in available_countries %}
+        <li>{{entry[0]}}</li>
+    {% endfor %}
+    </ul>
+{% endblock %}

@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}GDP expenditure on R&D 2019{% endblock %}
+
+{% block subtitle %}R&D expenditure Report 2019{% endblock %}
+
+{% block content %}
+    <h3>Top 10 Countries with Highest Percentage of GDP Used for R&D</h3>
+    <ol>
+        {% for entry in top_10_countries_most_gdp_for_RandD %}
+        <li>{{entry[0]}}: {{entry[1]}}%</li>
+        {% endfor %}
+    </ol>
+    <br>
+    <h3>Top 10 Countries with Lowest Percentage of GDP Used for R&D</h3>
+    <ol>
+        {% for entry in top_10_countries_least_gdp_for_RandD %}
+        <li>{{entry[0]}}: {{entry[1]}}%</li>
+        {% endfor %}
+    </ol>
+    <br>
+    <h3>GDP expenditure for R&D per Country/Union</h3>
+    <ul>
+        {% for entry in gpp_for_RandD_per_country %}
+        <li>{{entry[0]}}: {{entry[1]}}%</li>
+        {% endfor %}
+    </ul>
+    <br>
+{% endblock %}
