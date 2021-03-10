@@ -12,6 +12,7 @@ The other endpoint enables the user to enter a specific country to retrieve it's
 ### In progress:
 unittests
 
+<br/><br/>
 ### Demo:
 ![demo image](https://github.com/aglaevazz/web-application-R-D/blob/main/preview/preview_home.png)
 
