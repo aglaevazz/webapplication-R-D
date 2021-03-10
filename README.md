@@ -13,11 +13,11 @@ The other endpoint enables the user to enter a specific country to retrieve it's
 unittests
 
 ### Demo:
-![demo image](https://github.com/aglaevazz/web-application-R-D/preview/preview_home.png)
+![demo image](https://github.com/aglaevazz/web-application-R-D/blob/main/preview/preview_home.png)
 
-![demo image](https://github.com/aglaevazz/web-application-R-D/preview/preview_report.png)
+![demo image](https://github.com/aglaevazz/web-application-R-D/blob/main/preview/preview_report.png)
 
-![demo image](https://github.com/aglaevazz/web-application-R-D/preview/preview_request.png)
+![demo image](https://github.com/aglaevazz/web-application-R-D/blob/main/preview/preview_request.png)
 
-![demo image](https://github.com/aglaevazz/web-application-R-D/preview/preview_info_germany.png)
+![demo image](https://github.com/aglaevazz/web-application-R-D/blob/main/preview/preview_info_germany.png)
 
