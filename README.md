@@ -9,5 +9,15 @@ The other endpoint enables the user to enter a specific country to retrieve it's
 - Flask 1
 - PostgreSQL 13
 
+### In progress:
+unittests
+
 ### Demo:
-![demo image](https://github.com/lunatech-labs/airport_08022021_AglaeGonzalez/blob/main/preview_app.png)
+![demo image](https://github.com/web-application-R-D/preview/preview_home.png)
+
+![demo image](https://github.com/web-application-R-D/preview/preview_report.png)
+
+![demo image](https://github.com/web-application-R-D/preview/preview_request.png)
+
+![demo image](https://github.com/web-application-R-D/preview/preview_info_germany.png)
+
