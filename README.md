@@ -12,12 +12,18 @@ The original data can be found on https://ec.europa.eu/eurostat/databrowser/view
 
 
 <br/><br/><br/>
-### Demo:
+## Demo Homepage:
 ![demo image](https://github.com/aglaevazz/web-application-R-D/blob/main/preview/preview_home.png)
 
+<br/><br/><br/>
+## Demo Report:
 ![demo image](https://github.com/aglaevazz/web-application-R-D/blob/main/preview/preview_report.png)
 
+<br/><br/><br/>
+## Demo Request:
 ![demo image](https://github.com/aglaevazz/web-application-R-D/blob/main/preview/preview_request.png)
 
+<br/><br/><br/>
+## Demo Country-History:
 ![demo image](https://github.com/aglaevazz/web-application-R-D/blob/main/preview/preview_info_germany.png)
 
