@@ -1,4 +1,4 @@
-# Web-Application
+# Webapplication
 
 This is a web-application to retrieve data about GDP expenditure for R&D in european countries.
 One endpoint generates a report for 2019.
